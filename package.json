@@ -1,0 +1,23 @@
+{
+  "name": "rubixvoicesvr",
+  "version": "1.0.0",
+  "description": "TTS server that receives messages over websocket and speaks them out through speakers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubixq/rubixvoicesvr.git"
+  },
+  "author": "Edward Pie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubixq/rubixvoicesvr/issues"
+  },
+  "homepage": "https://github.com/rubixq/rubixvoicesvr#readme",
+  "dependencies": {
+    "say": "^0.15.0",
+    "ws": "^6.0.0"
+  }
+}
