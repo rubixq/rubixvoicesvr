@@ -1,7 +1,7 @@
 const say = require("say");
 const WebSocket = require('ws');
 
-const ws = new WebSocket("ws://localhost:5000/voicews");
+const ws = new WebSocket("ws://54.93.174.243:5000/voicews");
 
 ws.on("open", function(){
     console.log("ws connection established successfully");
